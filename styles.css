@@ -1,0 +1,238 @@
+
+.start{
+    margin-top: 10px;
+    padding-top: 10px;
+    text-align: center;
+    /* background-color: bisque; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    height: 95vh;
+    margin-left: 70px;
+    margin-right: 70px;
+    background-image: url('./images/Screenshot\ 2024-02-26\ 171419.png');
+    /* background-position: center; */
+    background-size: cover;
+    /* background-color: black; */
+}
+.pad{
+  margin-top: 200px;
+}
+
+.start h4{
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+}
+
+.start h3{
+    color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+.start .btn{
+    padding: 15px 10px 15px 10px;
+    margin-right: 20px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid black;
+    border-radius:20px;
+    background-color: #80a1ff;
+    width: 160px;
+    margin-top: 50px;
+}
+
+.start .btn2{
+    padding: 15px 10px 15px 10px;
+    margin-left: 20px;
+    font-size: medium;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color:#181818;
+    color: white;
+    width: 160px;
+}
+
+
+
+
+.middle{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    height: 60%;
+    margin-left: -100px;
+}
+
+.cards{
+    display: flex;
+}
+
+.card{
+    /* border: 1px solid black; */
+    border-radius: 20px;
+    width: 300px;
+    height: 55vh;
+    margin-left: 150px;
+    
+}
+
+.card img{
+    width: 120%;
+    border-radius: 20px;
+}
+
+.card .card-title{
+    font-size: medium;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 10px;
+    width: 120%;
+    line-height: 1.5;
+}
+
+.card .card-text{
+    width: 120%;
+  font-size: medium;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin-left: 10px;
+  text-align: justify;
+  margin-right: 10px;
+  font-weight: 500;
+  line-height: 1.5;
+}
+
+
+.right {
+    display: grid;
+    grid-template-rows: repeat(4,23%);
+    /* background-color: red; */
+    height: 60%;
+    
+}
+.right #btn1{
+    padding: 15px 10px 15px 10px;
+    margin-top: 10px;
+    
+    /* position: relative;
+    right: 0; */
+    margin-left: 150px;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    background-color:#809bff;
+    color: white;
+}
+.right .inner-card{
+    display: flex;
+    border-bottom: 1px solid black;
+    /* background-color: green; */
+    /* margin-left: -450px; */
+    width: 350px;
+    height: 100px;
+}
+.right img{
+    width: 120px;
+    height: 90px;
+    margin-left: 0px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+
+
+.footer{
+    margin-bottom: 100px;
+    margin-left: 150px;
+   background-color: #002244;
+   width: 80%;
+   display: grid;
+   grid-template-columns: repeat(2,60%);
+   margin-top: 150px;
+   height: 300px;
+   
+}
+.footer .container1{
+    
+   color: white;
+    margin-top: 20px;
+    padding-left: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.footer .form{
+    
+    padding-top: 50px;
+    width: 100px;
+}
+input[type="email"],input[type="password"]
+{
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+#submit-btn{
+    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    height: 40px;
+    width: 270px;
+    text-align: center;
+    background-color: blue;
+    color: white;
+}
+
+.details{
+    margin-left: 150px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    width: 1200px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+.resource ul li a, .company ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: 700;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.resource ul li,.company ul li {
+   margin-top: 15px;
+   margin-left: -40px;
+   
+}
+
+#subscribe-btn{
+    height: 45px;
+    width: 80px;
+    border: 1px solid black;
+    background-color: yellow;
+    color: blue;
+    /* padding: 10px; */
+    margin-left: -10px;
+}
+
+#text1{
+    margin-top: 10px;
+    border-radius: 0;
+    width: 250px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+*{
+    margin: 0;
+}
+
